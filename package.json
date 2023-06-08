@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build-image": "node sharp.js"
   },
   "keywords": [],
   "author": "your_name <your_email@domain.com>",
@@ -14,6 +15,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
+    "sharp": "^0.32.1",
     "style-loader": "^3.3.1",
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0"
